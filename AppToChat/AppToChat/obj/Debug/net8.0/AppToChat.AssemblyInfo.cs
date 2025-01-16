@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AppToChat")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("AppToChat.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("AppToChat")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AppToChat")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a18ebf6c102650a0b675588cb413ac8ba8a8c11")]
+[assembly: System.Reflection.AssemblyProductAttribute("AppToChat.Api")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AppToChat.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.

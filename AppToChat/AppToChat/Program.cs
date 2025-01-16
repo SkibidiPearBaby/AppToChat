@@ -1,4 +1,4 @@
-using AppToChat.Components;
+using AppToChat.Api.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,4 +25,5 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
+app.MapControllers();
 app.Run();

@@ -4,6 +4,13 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <AssemblyName>AppToChat.Api</AssemblyName>
+        <RootNamespace>AppToChat.Api</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AppToChat.Infrastructure\AppToChat.Infrastructure.csproj" />
+      <ProjectReference Include="..\AppToChat.Shared\AppToChat.Shared.csproj" />
+    </ItemGroup>
 
 </Project>

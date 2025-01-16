@@ -4,11 +4,137 @@
     "C:\\Repos\\AppToChat\\AppToChat\\AppToChat\\AppToChat.csproj": {}
   },
   "projects": {
+    "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Infrastructure\\AppToChat.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Infrastructure\\AppToChat.Infrastructure.csproj",
+        "projectName": "AppToChat.Infrastructure",
+        "projectPath": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Infrastructure\\AppToChat.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Sajmon\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sajmon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Shared\\AppToChat.Shared.csproj": {
+                "projectPath": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Shared\\AppToChat.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Shared\\AppToChat.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Shared\\AppToChat.Shared.csproj",
+        "projectName": "AppToChat.Shared",
+        "projectPath": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Shared\\AppToChat.Shared.csproj",
+        "packagesPath": "C:\\Users\\Sajmon\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Sajmon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Repos\\AppToChat\\AppToChat\\AppToChat\\AppToChat.csproj": {
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat\\AppToChat.csproj",
-        "projectName": "AppToChat",
+        "projectName": "AppToChat.Api",
         "projectPath": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat\\AppToChat.csproj",
         "packagesPath": "C:\\Users\\Sajmon\\.nuget\\packages\\",
         "outputPath": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat\\obj\\",
@@ -25,7 +151,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Infrastructure\\AppToChat.Infrastructure.csproj": {
+                "projectPath": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Infrastructure\\AppToChat.Infrastructure.csproj"
+              },
+              "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Shared\\AppToChat.Shared.csproj": {
+                "projectPath": "C:\\Repos\\AppToChat\\AppToChat\\AppToChat.Shared\\AppToChat.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
