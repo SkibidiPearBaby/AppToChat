@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+//test
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
